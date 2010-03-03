@@ -1,0 +1,13 @@
+This project is a simple sample that create the blog site using 
+* nitrogen framework: http://github.com/rklophaus/nitrogen  
+* erl4db: git@github.com:tanduy/erl4db.git
+
+First install postgres and create database name blogdb
+    Run script /prev/script.sql to create tables
+    Run script /prev/faker.sql to create faker datas
+
+Go to the ebin/psql.app change username, password, database to connect postgres
+
+Run make & ./start.sh 
+
+Browser: http://localhost:8000 check for looking
